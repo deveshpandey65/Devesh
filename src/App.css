@@ -824,9 +824,9 @@
 
 
  .getintouch h2,
- p,
- input,
- label {
+ .getintouch p,
+ .getintouch input,
+ .getintouch label {
    margin: 5px;
  }
 
