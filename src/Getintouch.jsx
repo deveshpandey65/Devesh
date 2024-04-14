@@ -30,6 +30,11 @@ export default function Getintouch() {
     console.log(newdata);
     udateuserData(newdata);
     uval(false)
+    sorry()
+  };
+
+  function sorry() {
+    alert("Sorry for the inconvenience. I implemented the feature, but GitHub hosting does not support routing or dynamic pages. You can view the code in my GitHub repository")
   };
 
   return (
@@ -48,7 +53,7 @@ export default function Getintouch() {
             <input onChange={updatedata} type="number" name="uphone" placeholder="9451127786" value={FormData.uphone} readOnly required />
             <label>Message</label>
             <textarea onChange={updatedata} name="umessage" placeholder="Contact me via call or mail" value={FormData.umessage} readOnly ></textarea>
-            <button type="submit">submit</button>
+            <button type="submit" >submit</button>
           </form>
         </div>
       </div>

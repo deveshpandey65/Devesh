@@ -16,6 +16,7 @@ import { Cources, Education } from './Courcework.jsx'
 import LinkedBlock from './Linked.jsx'
 import Getintouch from './Getintouch.jsx'
 import Skilldescription from './Skilldescription.jsx'
+// import { Link } from 'react-router-dom'
 
 export default function App() {
 
@@ -26,8 +27,8 @@ export default function App() {
                     <li><img src={image4} /> </li>
                 </ul>
                 <ul className='leftnav'>
-                    <li > About</li>
-                    <li>Portfolio</li>
+                    {/* <li ><Link to={'/AboutSec'} > About</Link></li>
+          <li><Link to={'/'} >Portfolio</Link></li> */}
                 </ul>
             </div>
             <Getintouch />

@@ -16,8 +16,12 @@ import { Cources, Education } from './Courcework.jsx'
 import LinkedBlock from './Linked.jsx'
 import Getintouch from './Getintouch.jsx'
 import Skilldescription from './Skilldescription.jsx'
+// import { Link } from 'react-router-dom'
 
 export default function App() {
+  function sorry(){
+    alert("Sorry for the inconvenience. I implemented the feature, but GitHub hosting does not support routing or dynamic pages. You can view the code in my GitHub repository")
+  }
 
   return (
     <div className='screen'>
@@ -26,8 +30,10 @@ export default function App() {
           <li><img src={image4} /> </li>
         </ul>
         <ul className='leftnav'>
-          <li > About</li>
-          <li>Portfolio</li>
+          <li onClick={sorry} ><a href='/AboutSec'> About</a></li>
+          <li onClick={sorry}><a href='/'>Portfolio</a></li> 
+          {/* <li ><Link to={'/AboutSec'} > About</Link></li>
+          <li><Link to={'/'} >Portfolio</Link></li> */}
         </ul>
       </div>
       <Getintouch/>

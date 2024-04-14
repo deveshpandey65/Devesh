@@ -643,15 +643,13 @@
    justify-content: center;
    align-items: center;
    color: white;
-
-
  }
 
  .upperContact {
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-   margin: 40px;
+   margin: 0px;
    width: 40%;
    justify-content: center;
    align-items: center;
