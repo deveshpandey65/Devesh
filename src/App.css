@@ -132,7 +132,7 @@
    margin-top: 20px;
    display: flex;
    flex-direction: row;
-   border: 2px solid yellowgreen;
+   border: 2px solid #fffc6c;
    flex-wrap: wrap;
    justify-content: center;
    overflow: hidden;
@@ -146,7 +146,7 @@
 
  .arrow {
    width: 20%;
-   border: 2px solid yellowgreen;
+   border: 2px solid #fffc6c;
  }
 
  .arrow img {
@@ -156,7 +156,7 @@
 
  .text {
    width: 80%;
-   border: 2px solid yellowgreen;
+   border: 2px solid #fffc6c;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -201,8 +201,6 @@
    flex-direction: row;
    flex-wrap: wrap;
    justify-content: center;
-
-
  }
 
  .skillblockimg {
