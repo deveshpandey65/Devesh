@@ -95,7 +95,7 @@ export default function App() {
           <h1>Education</h1><hr /></div>
         <div className='Courceworklower'>
           {Education.map((res, idx) => (
-            <div className='Courceworkupper'>
+            <div className='Courceworkupper' key={idx}>
               <div className='linedesign '><div className='circle'> </div>
                 <div className='lineyellowbig'> </div> </div>
               <div className='Courceworkblock' key={idx}>
@@ -134,7 +134,7 @@ export default function App() {
           <h1>Courcework</h1><hr />  </div>
         <div className='Courceworklower'>
           {Cources.map((res, idx) => (
-            <div className='Courceworkupper'>
+            <div className='Courceworkupper' key={idx}>
               <div className='linedesign '><div className='circle'> </div>
                 <div className='lineyellowbig'> </div> </div>
               <div className='Courceworkblock' key={idx}>
@@ -155,10 +155,10 @@ export default function App() {
             <LinkedBlock />
           </div>
           <div className='Linkedinblock' >
-            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7165538190949384192" height="392" width="250" frameborder="0" ></iframe>
+            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7165538190949384192" height="392" width="250" frameBorder="0" ></iframe>
           </div>
           <div className='Linkedinblock' >
-            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7134776010377428994" height="392" width="250" frameborder="0" ></iframe>
+            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7134776010377428994" height="392" width="250" frameBorder="0" ></iframe>
           </div>
           
         </div>
@@ -200,7 +200,7 @@ export const Block = ({ values }) => {
     <>
       {values.map((val, idx) => (
         <> 
-        <div className='skillblock' key={idx} onClick={() => Description(idx)} >
+          <div key={idx} className='skillblock'  onClick={() => Description(idx)} >
           <div className='skillblockimg'>
             <img src={val.add} alt='Skill' />
           </div>
