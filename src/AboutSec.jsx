@@ -26,8 +26,8 @@ export default function App() {
                     <li><img src={image4} /> </li>
                 </ul>
                 <ul className='leftnav'>
-                    <li><a href="#/AboutSec">About</a></li>
-                    <li><a href="#/">Portfolio</a></li>
+                    <li > About</li>
+                    <li>Portfolio</li>
                 </ul>
             </div>
             <Getintouch />
