@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Devesh/static/css/main.c3ff0bf0.css",
-    "main.js": "/Devesh/static/js/main.33de71af.js",
+    "main.css": "/Devesh/static/css/main.7c7c34b1.css",
+    "main.js": "/Devesh/static/js/main.8bccda1d.js",
     "static/js/453.04ec5b8f.chunk.js": "/Devesh/static/js/453.04ec5b8f.chunk.js",
     "static/media/Screenshot 2024-01-21 140150.png": "/Devesh/static/media/Screenshot 2024-01-21 140150.549608f6a3030134bbcc.png",
     "static/media/www_internet_globe_grid.jpg": "/Devesh/static/media/www_internet_globe_grid.06b5bde35f107aadce4a.jpg",
@@ -29,12 +29,12 @@
     "static/media/GitHub_Invertocat_Logo.svg.png": "/Devesh/static/media/GitHub_Invertocat_Logo.svg.baa8492565d00f6df19c.png",
     "static/media/react.svg": "/Devesh/static/media/react.f57b349b4d9df56c9b48c916a8d5adfb.svg",
     "index.html": "/Devesh/index.html",
-    "main.c3ff0bf0.css.map": "/Devesh/static/css/main.c3ff0bf0.css.map",
-    "main.33de71af.js.map": "/Devesh/static/js/main.33de71af.js.map",
+    "main.7c7c34b1.css.map": "/Devesh/static/css/main.7c7c34b1.css.map",
+    "main.8bccda1d.js.map": "/Devesh/static/js/main.8bccda1d.js.map",
     "453.04ec5b8f.chunk.js.map": "/Devesh/static/js/453.04ec5b8f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3ff0bf0.css",
-    "static/js/main.33de71af.js"
+    "static/css/main.7c7c34b1.css",
+    "static/js/main.8bccda1d.js"
   ]
 }
