@@ -16,6 +16,7 @@ import { Cources, Education } from './Courcework.jsx'
 import LinkedBlock from './Linked.jsx'
 import Getintouch from './Getintouch.jsx'
 import Skilldescription from './Skilldescription.jsx'
+import { Link } from 'react-router-dom'
 
 export default function App() {
 
@@ -26,11 +27,11 @@ export default function App() {
           <li><img src={image4} /> </li>
         </ul>
         <ul className='leftnav'>
-          <li > About</li>
-          <li>Portfolio</li>
+          <li ><Link to={'/AboutSec'} > About</Link></li>
+          <li><Link to={'/'} >Portfolio</Link></li>
         </ul>
       </div>
-      <Getintouch/>
+      <Getintouch />
       <div className='frontpage'>
         <div className='block'>
           <div className='lineyellow'> </div>
@@ -75,9 +76,9 @@ export default function App() {
       <div className='skill'>
         <div className='contactd'><hr />
           <h1>My Skills</h1><hr /></div>
-          <p>Click to view detail</p>
+        <p>Click to view detail</p>
         <div className='skillupperblock'>
-          <Block values={values}/>
+          <Block values={values} />
         </div>
       </div>
 
@@ -95,7 +96,7 @@ export default function App() {
           <h1>Education</h1><hr /></div>
         <div className='Courceworklower'>
           {Education.map((res, idx) => (
-            <div className='Courceworkupper' key={idx}>
+            <div className='Courceworkupper'>
               <div className='linedesign '><div className='circle'> </div>
                 <div className='lineyellowbig'> </div> </div>
               <div className='Courceworkblock' key={idx}>
@@ -134,7 +135,7 @@ export default function App() {
           <h1>Courcework</h1><hr />  </div>
         <div className='Courceworklower'>
           {Cources.map((res, idx) => (
-            <div className='Courceworkupper' key={idx}>
+            <div className='Courceworkupper'>
               <div className='linedesign '><div className='circle'> </div>
                 <div className='lineyellowbig'> </div> </div>
               <div className='Courceworkblock' key={idx}>
@@ -155,12 +156,12 @@ export default function App() {
             <LinkedBlock />
           </div>
           <div className='Linkedinblock' >
-            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7165538190949384192" height="392" width="250" frameBorder="0" ></iframe>
+            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7165538190949384192" height="392" width="250" frameborder="0" ></iframe>
           </div>
           <div className='Linkedinblock' >
-            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7134776010377428994" height="392" width="250" frameBorder="0" ></iframe>
+            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7134776010377428994" height="392" width="250" frameborder="0" ></iframe>
           </div>
-          
+
         </div>
       </div>
 
@@ -181,10 +182,10 @@ export default function App() {
       </div>
 
 
-      
+
 
     </div>
-    
+
   )
 }
 
@@ -193,25 +194,25 @@ export const Block = ({ values }) => {
 
   const Description = (idx) => {
     setSelectedBlock(selectedBlock === idx ? null : idx);
-    
+
   };
 
   return (
     <>
       {values.map((val, idx) => (
-        <> 
-          <div key={idx} className='skillblock'  onClick={() => Description(idx)} >
-          <div className='skillblockimg'>
-            <img src={val.add} alt='Skill' />
+        <>
+          <div className='skillblock' key={idx} onClick={() => Description(idx)} >
+            <div className='skillblockimg'>
+              <img src={val.add} alt='Skill' />
+            </div>
+            <div className='skillblocktext'>
+              <p>{val.name}</p>
+            </div>
           </div>
-          <div className='skillblocktext'>
-            <p>{val.name}</p>
-          </div>
-        </div>
           {selectedBlock === idx && (
-            <Skilldescription name={val.name}/>
+            <Skilldescription name={val.name} />
           )}
-        
+
         </>
       ))}
     </>
