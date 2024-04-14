@@ -30,8 +30,8 @@ export default function App() {
           <li><img src={image4} /> </li>
         </ul>
         <ul className='leftnav'>
-          <li onClick={sorry} ><a href='/AboutSec'> About</a></li>
-          <li onClick={sorry}><a href='/'>Portfolio</a></li> 
+          <li onClick={sorry} ><a href='/Devesh'> About</a></li>
+          <li onClick={sorry}><a href='/Devesh'>Portfolio</a></li> 
           {/* <li ><Link to={'/AboutSec'} > About</Link></li>
           <li><Link to={'/'} >Portfolio</Link></li> */}
         </ul>

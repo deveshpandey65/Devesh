@@ -132,11 +132,7 @@
    margin-top: 20px;
    display: flex;
    flex-direction: row;
-<<<<<<< HEAD
    border: 2px solid #fffc6c;
-=======
-   border: 2px solid #b1b178;;
->>>>>>> 998e0228037b50fd6286aef2a4d9a30e09c3ee66
    flex-wrap: wrap;
    justify-content: center;
    overflow: hidden;
@@ -160,11 +156,7 @@
 
  .text {
    width: 80%;
-<<<<<<< HEAD
    border: 2px solid #fffc6c;
-=======
-   border: 2px solid #b1b178;
->>>>>>> 998e0228037b50fd6286aef2a4d9a30e09c3ee66
    display: flex;
    justify-content: center;
    align-items: center;
