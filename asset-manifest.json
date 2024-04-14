@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Devesh/static/css/main.7c7c34b1.css",
+    "main.css": "/Devesh/static/css/main.b25c5195.css",
     "main.js": "/Devesh/static/js/main.1b223e49.js",
     "static/js/453.04ec5b8f.chunk.js": "/Devesh/static/js/453.04ec5b8f.chunk.js",
     "static/media/Screenshot 2024-01-21 140150.png": "/Devesh/static/media/Screenshot 2024-01-21 140150.549608f6a3030134bbcc.png",
@@ -29,12 +29,12 @@
     "static/media/GitHub_Invertocat_Logo.svg.png": "/Devesh/static/media/GitHub_Invertocat_Logo.svg.baa8492565d00f6df19c.png",
     "static/media/react.svg": "/Devesh/static/media/react.f57b349b4d9df56c9b48c916a8d5adfb.svg",
     "index.html": "/Devesh/index.html",
-    "main.7c7c34b1.css.map": "/Devesh/static/css/main.7c7c34b1.css.map",
+    "main.b25c5195.css.map": "/Devesh/static/css/main.b25c5195.css.map",
     "main.1b223e49.js.map": "/Devesh/static/js/main.1b223e49.js.map",
     "453.04ec5b8f.chunk.js.map": "/Devesh/static/js/453.04ec5b8f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c7c34b1.css",
+    "static/css/main.b25c5195.css",
     "static/js/main.1b223e49.js"
   ]
 }
